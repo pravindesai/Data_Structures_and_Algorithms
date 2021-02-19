@@ -32,12 +32,7 @@ public class CustomStack {
     }
 
     public boolean isEmpty(){
-        if(top == -1){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return top == -1;
     }
 
     public boolean isFull(){
