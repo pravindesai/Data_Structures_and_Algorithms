@@ -1,5 +1,6 @@
-#LINEAR SEARCH
-************************************************************************************************************************
+# LINEAR SEARCH
+***
+
 Searching
 
 Searching is the process of finding some particular element in the list.
