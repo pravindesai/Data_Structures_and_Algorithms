@@ -72,6 +72,7 @@ public class Patterns {
       *******
 
          */
+
         int i, j, row = 6;
         for (i=0; i<row; i++)
         {
