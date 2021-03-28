@@ -6,7 +6,6 @@ public class Patterns {
         Pattern1();
         Pattern2();
         Pattern3();
-        Pattern4();
 
     }
 
@@ -73,20 +72,22 @@ public class Patterns {
       *******
 
          */
+        int i, j, row = 6;
+        for (i=0; i<row; i++)
+        {
+            for (j=row-i; j>1; j--)
+            {
+                System.out.print(" ");
+            }
+            for (j=0; j<=i; j++ )
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
     }
 
-    public static void Pattern4(){
-        /*
-
-         1
-        234
-       56789
-      1234567
-
-         */
-
-    }
 }
 
 
