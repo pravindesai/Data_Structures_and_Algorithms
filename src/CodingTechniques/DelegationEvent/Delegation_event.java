@@ -1,4 +1,4 @@
-package CodingTechniques.DelegationEvents;
+package CodingTechniques.DelegationEvent;
 
 import java.util.ArrayList;
 import java.util.Scanner;
