@@ -1,5 +1,9 @@
 package CodingTechniques.DesignPatterns.FactoryPattern;
 
+import CodingTechniques.DesignPatterns.FactoryPattern.Entities.GmailNotification;
+import CodingTechniques.DesignPatterns.FactoryPattern.Entities.OneDriveNotification;
+import CodingTechniques.DesignPatterns.FactoryPattern.Entities.SkypeNotification;
+
 public class NotificationFactory {
     public Notification createNotification(String Type){
 
