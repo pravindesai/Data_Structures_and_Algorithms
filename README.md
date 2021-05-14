@@ -3,7 +3,7 @@
 ### Index
 ***
 
-###[src](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src)
+### [src](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src)
  * [Algorithms]()
     * [Searching Algorithms](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src/Algorithms)
         * [Linear Search](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src/Algorithms/Seraching_Algorithms/LinearSearch)
