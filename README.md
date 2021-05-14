@@ -1,6 +1,4 @@
 
-## Data_structures_and_algorithm
-
 <h2 align="center">Index</h2>
 
 ### [src](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src)
