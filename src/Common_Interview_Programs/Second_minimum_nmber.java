@@ -1,6 +1,6 @@
 package Common_Interview_Programs;
 
-public class Second_minimum_mber {
+public class Second_minimum_nmber {
     public static void main(String[] args) {
         int[] array = {5,3,2,6,8,1,3,7,89,34,6};
 
