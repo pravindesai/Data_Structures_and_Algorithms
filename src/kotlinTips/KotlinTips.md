@@ -3,7 +3,7 @@
 ### [1. Measure execution time of code snippet](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/MeasureExecutionTime.kt)
     Kotlin provides some methods to measure execution time of code. 
 
-### [2.Sequences]()
+### [2.Sequences](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/CollectionsToSequence.kt)
 #### In kotlin sequences are lazily evaluated that means object is created only when required.
     
 * They have two types of operations: <b>intermediate and terminal</b>.
@@ -45,7 +45,7 @@
     * <b>Type safety</b>- Generic allows only single type of object at a time.
     * <b>Compile time safety</b>- Generics code is checked at compile time for the parameterized type so that it avoids run time error.
   
-### [4.Extension functions]()
+### [4.Extension functions](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/ExtensionFunction.kt)
 
 Kotlin gives the programmer the ability to add more functionality to the existing classes, without inheriting them. <br>This is achieved through a feature known as extensions. <br>When a function is added to an existing class it is known as Extension Function.
 
