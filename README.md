@@ -25,3 +25,4 @@
     * [Stack](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src/DATA_STRUCTURES/Stack)
     * [Queue](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src/DATA_STRUCTURES/Queue)
 * [Interview Questions](https://github.com/pravindesai/Data_Structures_and_Algorithms/tree/master/src/Common_Interview_Programs)
+* [Kotlin DSL](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/KotlinTips.md)
