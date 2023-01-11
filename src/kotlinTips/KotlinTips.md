@@ -3,7 +3,7 @@
 ### [1. Measure execution time of code snippet](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/MeasureExecutionTime.kt)
     Kotlin provides some methods to measure execution time of code. 
 
-### [2.Sequences]()
+### [2.Sequences](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/CollectionsToSequence.kt)
 #### In kotlin sequences are lazily evaluated that means object is created only when required.
     
 * They have two types of operations: <b>intermediate and terminal</b>.
