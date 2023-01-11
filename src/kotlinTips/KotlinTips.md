@@ -45,10 +45,35 @@
     * <b>Type safety</b>- Generic allows only single type of object at a time.
     * <b>Compile time safety</b>- Generics code is checked at compile time for the parameterized type so that it avoids run time error.
   
-### [4.Extension functions]()
+### [4.Extension functions](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/ExtensionFunction.kt)
 
 Kotlin gives the programmer the ability to add more functionality to the existing classes, without inheriting them. <br>This is achieved through a feature known as extensions. <br>When a function is added to an existing class it is known as Extension Function.
 
-      fun ExistingClass.functionName():String{
-        return "string"  
+      fun ExistingClass.functionName():<ReturnType>{
+        return <ReturnValue>  
+      }
+
+### [5.Destructing](https://github.com/pravindesai/Data_Structures_and_Algorithms/blob/master/src/kotlinTips/Destructuring.kt)
+
+####A destructuring declaration creates multiple variables at once.<br>
+The variable number that was destructuring the declaration defined the class, 
+which provided the number of components and functions starting from component1 and ending with components.
+
+
+    val location = Pair(4232.54739, 923423.01127)
+    val (latitude,longitude) = location
+    println("Lat: $latitude - Long: $longitude")
+
+Under the hood kotlin calls component() function on the object like o`bject.component1()`
+
+
+    val location = Pair(4232.54739, 923423.01127)
+    val (latitude,longitude) = location
+    println("Lat: ${location.component1()} - Long: ${location.component2()}")
+
+To add destructing in simple classes we can add `operator fun component1()` like
+
+      class Vector(val x:Int, val y:Int){
+          operator fun component1(): Int = x
+          operator fun component1(): Int = y
       }
