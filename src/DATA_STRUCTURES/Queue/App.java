@@ -13,15 +13,15 @@ public class App {
         int Choice=0;
 
         while(true){
-            System.out.println("""
-
-                    1.Displays
-                    2.Enqueue
-                    3.Dequeue
-                    4.PEAK
-                    5.IsEmpty
-                    6.isFull
-                    """);
+//            System.out.println("""
+//
+//                    1.Displays
+//                    2.Enqueue
+//                    3.Dequeue
+//                    4.PEAK
+//                    5.IsEmpty
+//                    6.isFull
+//                    """);
             Choice = sc.nextInt();
             switch (Choice){
                 case 1:

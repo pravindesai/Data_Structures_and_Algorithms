@@ -7,7 +7,7 @@ import CodingTechniques.DesignPatterns.FactoryPattern.Entities.SkypeNotification
 public class NotificationFactory {
     public Notification createNotification(String Type){
 
-        if (Type.isEmpty() || Type == null || Type.isBlank()) {
+        if (Type.isEmpty() || Type == null || Type.isEmpty()) {
             return null;
         }
 
