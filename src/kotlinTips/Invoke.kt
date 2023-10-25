@@ -3,6 +3,7 @@ package kotlinTips
 fun main(){
 
     val bike = Bike()
+    bike()
 
 }
 
