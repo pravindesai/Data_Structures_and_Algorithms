@@ -67,4 +67,5 @@
 * How kotlin handles varibles and functions return in file without any class // top-level functions/variables
 * invoke() operator in Kotlin
 * Labels and [jump expressions](https://blog.mindorks.com/learn-kotlin-returns-jumps-labels/) (return, break and continue)
+* Sequences
 
