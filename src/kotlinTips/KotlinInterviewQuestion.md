@@ -22,6 +22,7 @@
 * what is coroutines in Kotlin
 * suspend functions in Kotlin
 * scope functions i.e. with, let, apply, run, also
+* what is use of map{ } and filter{ }
 
 
 ---
