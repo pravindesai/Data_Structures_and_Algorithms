@@ -15,6 +15,7 @@
 * what is null assert (!!) 
 * How to create nullable object 
 * lateinit modifier in Kotlin
+* what is isInitialized
 * lazy in kotlin
 * data class
 * open keyword
@@ -34,7 +35,7 @@
 * companion objects vs objects in kotlin
 * sealed class in Kotlin
 * inline functions in Kotlin
-* infix operator
+* infix functions
 * Thread's vs coroutines
 * Dispatcher in coroutines
 * Scopes of coroutines
@@ -46,6 +47,7 @@
 * until and downTo keyword
 * sealed classes and abstract classes in Kotlin
 * ==  (Structural Equality) vs === (Referential Equality) operator
+* Pair(A,B) and Triple(A,B,C)
 
 
 ---
@@ -64,5 +66,5 @@
 * crossinline modifier in Kotlin
 * How kotlin handles varibles and functions return in file without any class // top-level functions/variables
 * invoke() operator in Kotlin
-
+* Labels and [jump expressions](https://blog.mindorks.com/learn-kotlin-returns-jumps-labels/) (return, break and continue)
 
