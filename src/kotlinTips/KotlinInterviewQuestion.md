@@ -4,6 +4,7 @@
 ***Beginner***
 ---
 * Explain the advantages of using Kotlin
+* Why Kotlin is interoperable with Java ?
 * What is the difference between val and var
 * What is the difference between val and const val
 * Types of constructor
@@ -18,6 +19,7 @@
 * what is isInitialized
 * lazy in kotlin
 * data class
+* can we inherit kotlin classes directly ? how/why
 * open keyword
 * how to write statics
 * what is coroutines in Kotlin
@@ -53,9 +55,9 @@
 ---
 ***Advance***
 ---
-* object expressions in Kotlin
 * exceptions in Kotlin coroutines  // simple try catch does not work for exception in nestted coroutines (CoroutineExceptionHandler)
-* flow in Kotlin coroutines
+* flow in Kotlin
+* flow vs livedata
 * join() function in coroutines
 * lazy initialization by 'by' keyword
 * 'reified' in Kotlin
