@@ -3,25 +3,31 @@ package Algorithms_QuestionSet_V1.solutions
 fun main(){
 
     val array = arrayOf(1,3,5,2,2)
-    println("Equilibrium point is ${equilibriumPoint(array)}")
+    println("For [${array.joinToString(",")}] equilibrium point is ${equilibriumPoint(array)}")
+
+    val array2 = arrayOf<Int>(1)
+    println("For [${array2.joinToString(",")}] equilibrium point is ${equilibriumPoint(array2)}")
+
 }
 
-fun equilibriumPoint(array: Array<Int>):Int{
+fun equilibriumPoint(array: Array<Int>):Int?{
 
     return if (array.size==1) {
         array[0]
     } else{
-        var equilibriam = array[0]
-
-        (1 until array.size).forEach{   arrayIndex ->
+        (array.indices).forEach{ arrayIndex ->
             var additionBefore = 0
             var additionAfter = 0
-            (0 until array.size).forEach{
-//                if ()
+                (array.indices).forEach{ evaluationIndex ->
+                    if (evaluationIndex<arrayIndex){
+                        additionBefore = additionBefore.plus(array[evaluationIndex])
+                    }else if (evaluationIndex>arrayIndex){
+                        additionAfter = additionAfter.plus(array[evaluationIndex])
+                    }
             }
+            if (additionBefore==additionAfter) return arrayIndex
         }
-
-        equilibriam
+        null
     }
 
 }

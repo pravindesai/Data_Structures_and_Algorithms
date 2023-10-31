@@ -1,13 +1,11 @@
 package Algorithms_QuestionSet_V1.solutions
 
 fun main(){
-    val string1 = "aeioup"
-    val string2 = "bcdaeiou"
-    val string3 = "abgggggggggg"
+    val string1 = "aeioup??"
+    val string2 = "bcdaeiou??"
 
     println("$string1 is ${isGoodOrBad(string1)}")
     println("$string2 is ${isGoodOrBad(string2)}")
-    println("$string3 is ${isGoodOrBad(string3)}")
 
 }
 
@@ -19,6 +17,9 @@ fun isGoodOrBad(string: String):String{
     for (itr in string.indices) {
 
         when{
+            string[itr]=='?' ->{
+                counter++
+            }
             vowels.contains(string[itr]) && isCheckingVowels.not() ->{
                 counter = 0
                 isCheckingVowels = true
@@ -27,21 +28,21 @@ fun isGoodOrBad(string: String):String{
                 isCheckingVowels = false
                 counter = 0
             }
-            vowels.contains(string[itr]) && isCheckingVowels ->{
+            (vowels.contains(string[itr]) && isCheckingVowels) ->{
                 counter++
             }
-            vowels.contains(string[itr]).not() && isCheckingVowels.not() ->{
+            (vowels.contains(string[itr]).not() && isCheckingVowels.not()) ->{
                 isCheckingVowels = false
                 counter++
             }
         }
 
         when{
-            isCheckingVowels && counter>=5 -> {
+            isCheckingVowels && counter>5 -> {
                 isBroke = true
                 break
             }
-            isCheckingVowels.not() && counter>=7 ->{
+            isCheckingVowels.not() && counter>5 ->{
                 isBroke = true
                 break
             }
