@@ -4,6 +4,9 @@ fun main(){
 
     val stockList = arrayListOf<Int>(100,180,260,310,40,535,695)
     stockBuySell(stockList)
+
+    val stockList2 = arrayListOf<Int>(4,2,2,2,4)
+    stockBuySell(stockList2)
 }
 
 fun stockBuySell(stockList: ArrayList<Int>) {

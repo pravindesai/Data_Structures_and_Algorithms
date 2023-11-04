@@ -5,6 +5,10 @@ fun main(){
     val addition = 6
     println("2nd largest element is ${getPairsCount(array, addition)}")
 
+    val array2 = arrayOf(1, 1, 1, 1)
+    val addition2 = 2
+    println("2nd largest element is ${getPairsCount(array2, addition2)}")
+
 }
 
 fun getPairsCount(array: Array<Int>, addition:Int):Int{

@@ -25,7 +25,7 @@ fun equilibriumPoint(array: Array<Int>):Int?{
                         additionAfter = additionAfter.plus(array[evaluationIndex])
                     }
             }
-            if (additionBefore==additionAfter) return arrayIndex
+            if (additionBefore==additionAfter) return arrayIndex.plus(1)
         }
         null
     }

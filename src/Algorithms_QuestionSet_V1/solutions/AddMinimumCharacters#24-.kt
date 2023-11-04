@@ -2,10 +2,13 @@ package Algorithms_QuestionSet_V1.solutions
 
 fun main(){
     val str = "BCDEB"
-    println("Add ${addMinChar(str)} characters to make string palindrome.")
+    println("Add ${addMinChar(str)} characters to make string palindrome.") // 4
 
     val str2 = "ABA"
-    println("Add ${addMinChar(str2)} characters to make string palindrome.")
+    println("Add ${addMinChar(str2)} characters to make string palindrome.") // 0
+
+    val str3 = "ABCD"
+    println("Add ${addMinChar(str3)} characters to make string palindrome.") // 3
 
 
 }

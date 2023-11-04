@@ -5,6 +5,10 @@ fun main(){
     val number  = 3
     println("First last occurrence of $number is ${firstAndLast(number, sortedArray).joinToString(" & ")} ")
 
+    val sortedArray2 = arrayListOf( 1, 2, 3, 4)
+    val number2  = 5
+    println("First last occurrence of $number is ${firstAndLast(number2, sortedArray2).joinToString(" & ")} ")
+
 }
 fun firstAndLast(number: Int, sortedArray: ArrayList<Int>):Array<Int>{
 

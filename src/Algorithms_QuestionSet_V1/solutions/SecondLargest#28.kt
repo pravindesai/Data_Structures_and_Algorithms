@@ -1,8 +1,13 @@
 package Algorithms_QuestionSet_V1.solutions
 
 fun main(){
-    val array = arrayOf(34, 12, 35, 1, 36, 10, 30, 1, 33, 60, 50)
+    val array = arrayOf(12, 35, 1, 10, 34, 1)
     println("2nd largest element is ${print2largest(array)}")
+
+    val array2 = arrayOf(10, 5, 10)
+    println("2nd largest element is ${print2largest(array2)}")
+
+
 }
 
 fun print2largest(array: Array<Int>):Int?{

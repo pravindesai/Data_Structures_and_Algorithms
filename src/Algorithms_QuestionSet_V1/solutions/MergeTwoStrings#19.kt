@@ -1,9 +1,13 @@
 package Algorithms_QuestionSet_V1.solutions
 
 fun main(){
-    val str1 = "ABCDEFGHI"
-    val str2 = "1234"
+    val str1 = "abc"
+    val str2 = "def"
     println("Merged String is ${merge(str1, str2)}")
+
+    val str3 = "Hello"
+    val str4 = "Bye"
+    println("Merged String is ${merge(str3, str4)}")
 
 }
 

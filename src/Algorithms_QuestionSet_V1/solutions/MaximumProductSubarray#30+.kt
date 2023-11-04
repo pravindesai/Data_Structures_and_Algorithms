@@ -27,4 +27,8 @@ fun main() {
     val array = longArrayOf(6, -3, -10, 0, 2)
     val result = maxProduct(array, array.size)
     println("Maximum Product Subarray: $result")
+
+    val array2 = longArrayOf(2, 3, 4, 5, -1, 0)
+    val result2 = maxProduct(array2, array2.size)
+    println("Maximum Product Subarray: $result2")
 }

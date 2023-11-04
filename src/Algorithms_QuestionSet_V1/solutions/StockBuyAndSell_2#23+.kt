@@ -15,6 +15,11 @@ fun stockBuyAndSell(prices: Array<Int>): Int {
 fun main() {
     val prices = arrayOf(3, 4, 1, 5)
     val maxProfit = stockBuyAndSell(prices)
-
     println("Maximum Profit: $maxProfit")
+
+    val prices2 = arrayOf(1, 3, 5, 7, 9)
+    val maxProfit2 = stockBuyAndSell(prices2)
+    println("Maximum Profit: $maxProfit2")
+
+
 }

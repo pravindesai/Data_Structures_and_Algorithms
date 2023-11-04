@@ -1,8 +1,11 @@
 package Algorithms_QuestionSet_V1.solutions
 
 fun main(){
-    val array = arrayOf(6,1,2,8,3,7,10,5,9)
+    val array = arrayOf(1,2,3,5)
     println("Distinct element is ${findDistinctElement(array)}")
+
+    val array2 = arrayOf(6,1,2,8,3,4,7,10,5)
+    println("Distinct element is ${findDistinctElement(array2)}")
 }
 
 fun findDistinctElement(array: Array<Int>):Int {

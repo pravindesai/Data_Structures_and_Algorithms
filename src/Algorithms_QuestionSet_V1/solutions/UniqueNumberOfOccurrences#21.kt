@@ -3,6 +3,9 @@ package Algorithms_QuestionSet_V1.solutions
 fun main(){
     val array = listOf(1,1,1,2,3,4,3,2,2,3,4,4)
     println("Is frequency unique ${isFrequencyUnique(array)}")
+
+    val array2 = listOf(2, 2, 5, 10, 1, 2, 10, 5, 10, 2)
+    println("Is frequency unique ${isFrequencyUnique(array2)}")
 }
 
 fun isFrequencyUnique(array: List<Int>):Boolean {
